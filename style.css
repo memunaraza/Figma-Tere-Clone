@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.nav-link {
+    color: #000 !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.registerBtn {
+    background-color: #75BF7A;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Hero Section */
+.bggrey {
+    background-color: #F9F9F9;
+}
+
+.colorgrn {
+    color: #75BF7A;
+}
+.colordark {
+    color: #000;
+}
+
+.Money {
+    font-weight: 900;
+    font-size: clamp(28px, 5vw, 45px);
+    line-height: 1.2;
+}
+
+.colortext {
+    color: #9E9DA2;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.Downloadbtn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+/* Green Contact Box */
+.form-box {
+    background-color: #75BF7A;
+    border-radius: 12px;
+    padding: 40px 50px;
+}
+
+.formtext {
+    font-size: 20px;
+}
+
+.form-input {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    padding: 0 20px;
+}
+
+.apply-btn {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+}
+
+.green-text {
+    color: #75BF7A;
+}
+
+.how-description {
+    max-width: 500px;
+    font-size: 16px;
+}
+
+/* Steps Styling */
+.step-number {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #75BF7A;
+    color: #75BF7A;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 24px;
+    background: #fff;
+}
+
+.mb-120 {
+    margin-bottom: 120px;
+}
+
+.step h5 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.step p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Center Circle & Image */
+.center-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-circle {
+    width: 100%;
+    height: 100%;
+    background: #75BF7A;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.mobile-mockup {
+    position: absolute;
+    width: 240px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+/* Dots */
+.dots-container .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #75BF7A;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.3;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+.benefits {
+    width: 100%;
+    max-width: 375px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sub-title {
+    color: #75BF7A;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.benefit-item {
+    margin-bottom: 35px;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #75BF7A;
+    border-radius: 50%;
+    color: #75BF7A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto 12px;
+}
+
+.benefit-item h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.benefit-item p {
+    font-size: 12px;
+    color: #777;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* Benefits Section */
+.benefits-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 20px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+/* Mobile phone background */
+ .mobile-bg {
+  position: absolute;
+  left: 30%;
+  top: 610px;
+  transform: translateX(-50%);
+  width: 250px;
+  z-index: 0;
+} 
+
+/* Cards */
+ .benefit-card {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-radius: 16px;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.benefit-card.left {
+  margin-right: 120px;
+}
+
+.benefit-card.right {
+  margin-left: 120px;
+}
+
+.text {
+  max-width: 450px;
+}
+
+.num-img {
+  width: 55px;
+  margin-bottom: 10px;
+}
+.bnftext{
+    width: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.text p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.illustration {
+  width: 170px;
+} 
+
+
+.downloadbtn {
+  background: #000;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3.43px;
+}
+footer{
+    margin-bottom: 180px;
+}
+
+
+
+/* --- RESPONSIVE LOGIC --- */
+
+/* Desktop view (First Image) */
+@media (min-width: 992px) {
+    .mobile-mockup {
+        display: none;
+    }
+
+    .benefits {
+        display: none;
+    }
+}
+
+/* Mobile View (Second Image) */
+@media (max-width: 991px) {
+    .how-description {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .center-container {
+        width: 280px;
+        height: 280px;
+    }
+
+    .mobile-mockup {
+        display: block;
+        width: 200px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .Money {
+        margin-top: 20px;
+    }
+
+    .form-box h4 {
+        font-size: 1.2rem;
+    }
+
+    .apply-btn,
+    .form-input {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* 991px and below */
+@media (max-width: 991px) {
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Downloadbtn {
+    width: 220px;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+    .benefits {
+        display: block;
+    }
+  .mobile-bg {
+    display: none;
+  }
+
+  .benefit-card {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0 30px 0 !important;
+  }
+
+  .illustration {
+    margin-top: 20px;
+  }
+} 
+
+
+@media only screen and (max-width:576px) {
+    .logoimg {
+        width: 100px;
+    }
+    .download-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    order: 1;
+  }
+
+  .footer-buttons {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-info {
+    order: 3;
+    text-align: center;
+    color: #272042;
+    margin-top: 50px;
+  }
+  .ftinfo{
+    display: none;
+  }
+
+  .colorgrn {
+    order: 4;
+    color: #9a9a9a;
+  }
+}
+
+
+
+@media only screen and (max-width:400px) {
+    .Money {
+        font-size: 28px;
+    }
+    .Downloadbtn{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
